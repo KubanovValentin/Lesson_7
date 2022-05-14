@@ -10,6 +10,8 @@ numpy = "^1.22.2"
 Pillow = "^9.1.0"
 ImageFilter = "^0.1.0"
 cs50 = "^9.0.0"
+sys-vars = "^4.0.3"
+stdin = "^2020.12.3"
 
 [tool.poetry.dev-dependencies]
 

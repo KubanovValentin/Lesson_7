@@ -62,12 +62,15 @@
 # def main():
 #     i = get_positive_int()
 #     print(i)
+
 # def get_positive_int():
-#   while True:
-#     n=get_positive_int("positive_int")
-#     if n>0:
-#       break
-#   return n
+#     while True:
+#         n = get_int("positive_int :")
+#         if n > 0:
+#             break
+#     return n
+
+# main()
 # -----------------------------------------------------------------
 # for i in range(3):
 #    # print("?", end="")
@@ -75,7 +78,75 @@
 # print()
 # -----------------------------------------------------------------
 # for i in range(5):
-#   for j in range(3):
+#   for j in range(31):
 #     print("?", end="")
-#   print()  
+#   print()
 # --------------------------------------------------------------------
+# scores = {72, 73, 33}
+
+# print("Average: " + str(sum(scores) / len(scores)))
+# print(f"Average:{sum(scores)/len(scores)}")
+# --------------------------------------------------------------------
+# scores = []
+# for i in range(3):
+#     scores.append(int(input("Score: ")))
+
+# print(scores)
+# --------------------------------------------------------------------
+# s=input("Before: ")
+# print("After: ",end="")
+# for c in s:
+#   print(c.upper(),end="")
+# print()
+# --------------------------------------------------------------------
+# s = input("Before: ")
+# s = s.upper()
+# print("After: " + s)
+# --------------------------------------------------------------------
+# import sys
+
+# if len(sys.argv) != 2:
+#     print("отсутствует")
+#     sys.exit(1)
+
+# print("helllo," + sys.argv[1])
+# sys.exit(0)
+# --------------------------------------------------------------------
+# import sys
+
+# number = [4, 6, 8, 6, 8, 10, 3]
+
+# if 0 in number:
+#     print("found")
+#     sys.exit(0)
+
+# print("not found")
+# sys.exit(1)
+# --------------------------------------------------------------------
+# import sys
+
+# names = ["qwe", "asd", "zxc", "rfv", "tgb", "yhn", "ikm"]
+
+# if "rqwe" in names:
+#     print("found")
+#     sys.exit(0)
+
+# print("not found")
+# sys.exit(1)
+# --------------------------------------------------------------------
+# set
+# import sys
+
+# people = {
+#     "Harry": "+324234234234",
+#     "Tom": "+3424234234234",
+#     "Vasek": "+312312323123",
+#     "Petr": "+312424234233",
+#     "Sem": "+31242424234343"
+# }
+# name=input("Name: ")
+# if name in people:
+#   print("Number: "+people[name])
+# --------------------------------------------------------------------
+x=1
+y=2
