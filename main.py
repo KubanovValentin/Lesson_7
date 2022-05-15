@@ -148,5 +148,8 @@
 # if name in people:
 #   print("Number: "+people[name])
 # --------------------------------------------------------------------
-x=1
-y=2
+x = 1
+y = 2
+print("x= " + str(x) + ", y= " + str(y))
+x, y = y, x
+print("x= " + str(x) + ", y= " + str(y))
